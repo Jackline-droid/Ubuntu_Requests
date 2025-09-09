@@ -27,10 +27,10 @@ Install requests if not available:
 ```bash
 pip install requests
 
-🚀 How to Run
+**## 🚀 How to Run**
 python ubuntu_fetcher.py
 
-🖥️ Sample Run
+**## 🖥️ Sample Run**
 $ python ubuntu_fetcher.py
 🌍 Ubuntu Image Collector
 Collecting and organizing shared images with respect.
@@ -42,17 +42,17 @@ https://www.example.com/sample1.jpg https://www.example.com/sample2.png
 ✅ Saved: sample2.png
 
 
-If you run the program again with the same URLs:
+**If you run the program again with the same URLs:**
 
 ℹ️  Already exists: sample1.jpg
 ℹ️  Already exists: sample2.png
 
 
-If you provide a non-image URL:
+**If you provide a non-image URL:**
 
 ⚠️  Skipped: https://www.example.com/index.html is not an image (text/html)
 
 
-If the file is too large:
+**If the file is too large:**
 
 ⚠️  Skipped: https://www.example.com/huge.jpg is too large (> 8MB)
